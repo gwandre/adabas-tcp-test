@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 
 app.get('/adabas', (req, res) => {
 	const adabas = new Adabas('172.20.1.110', 60001);
-	adabas.read({ fnr: 11 }).then( result => {
+	adabas.read({ fnr: 12 }).then( result => {
 		res.send(result);
 		adabas.close().then( () => adabas.disconnect() );
 	});
