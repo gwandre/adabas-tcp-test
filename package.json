@@ -1,0 +1,14 @@
+{
+  "name": "adabas_tcp_test",
+  "version": "1.0.0",
+  "description": "ADABAS TCP Test Web App",
+  "author": "Guilherme Andre <gwandre@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "adabas-tcp": "^1.0.5"
+  }
+}
